@@ -275,9 +275,20 @@ const players = [
     }
   });
 
-  
 function showTable(){
     $(".show").css("display", "block");
     var y = $(window).scrollTop();  //your current y position on the page
     $(window).scrollTop(y+80);
   }
+
+  //mix it up js
+  $(function(){
+
+
+    $('#MixItUp1').mixItUp({
+      selectors: {
+        filter: '.filter-1',
+        sort: '.sort-1'
+      }
+    });
+}); 

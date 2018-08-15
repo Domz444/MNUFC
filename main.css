@@ -72,3 +72,192 @@ td {
   white-space: nowrap;
   padding-right: 12px;
 }
+
+/*Mix it up css*/
+/*
+section {
+	padding: 60px 0;
+	background: #ffffff;
+}
+
+*/.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .img-responsive{
+       position: relative;
+      top: 0px;
+      right: 0px;
+      height: 70px;
+   width: auto;
+    display: block;
+      margin: 0 auto;
+     
+  }
+  section.module.parallax { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    /*background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;*/
+  }
+  section.module.content{
+   
+   background-color: transparent!important;
+  }
+  section.module.parallax h1 {
+  
+    color: gray;
+    font-family: 'Ultra', sans-serif; 
+    font-size: 70px;
+    line-height: 300px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 5px black, 0 3px #343434;
+  }
+  section.module.parallax-1 {
+    background: url("C:/Users/Domz44/Desktop/Other Stuff/Unomena/FrontEnd/Andro/Domz/static/img/footy/poks.png") no-repeat center;
+  }
+  {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body, button{
+    font-family: 'Helvetica Neue', arial, sans-serif;
+  }
+  
+  .controls{
+    padding: 2%;
+    background: #333;
+    color: #eee;
+  }
+  
+  label{
+    font-weight: 300;
+    margin: 0 .4em 0 0;
+  }
+  
+  h3{
+  
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: .5em;
+  }
+  
+  button{
+    display: inline-block;
+    padding: .4em .8em;
+    background: #666;
+    border: 0;
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.active{
+    background: #68b8c4;
+  }
+  
+  button:focus{
+    outline: 0 none;
+  }
+  
+  button + label{
+    margin-left: 1em;
+  }
+  
+  #MixItUp1{
+    padding: 2% 2% 0;
+    text-align: justify;
+    font-size: 0.1px;
+    background: transparent;
+    min-height: 700px;
+    
+    -webkit-backface-visibility: hidden;
+  }
+  
+  #MixItUp1:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+  }
+  
+  #MixItUp1 .mix,
+  #MixItUp1 .gap{
+    display: inline-block;
+    width: 49%;
+  }
+  
+  #MixItUp1 .mix{
+    text-align: left;
+    background: #4C8BF5;
+    margin-bottom: 2%;
+    display: none;
+  }
+  
+  #MixItUp1 .mix.Fire{
+    border-top: 2px solid red;
+  }
+  
+  #MixItUp1 .mix.Water{
+    border-top: 2px solid blue;
+  }
+  #MixItUp1 .mix.Plant{
+    border-top: 2px solid green;
+  }
+  #MixItUp1 .mix.Electric{
+    border-top: 2px solid yellow;
+  }
+  
+  #MixItUp1 .mix:after{
+    content: attr(data-myorder);
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 4% 6%;
+    font-weight: 700;
+  }
+  
+  #MixItUp1 .mix:before{
+    content: '';
+    display: inline-block;
+    padding-top: 60%;
+  }
+  .mix {
+    position: relative;
+  }
+  .mix img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 100%;
+   width: 75%;  
+  }
+  
+  @media all and (min-width: 420px){
+    #MixItUp1 .mix,
+    #MixItUp1 .gap{
+      width: 32%;
+    }
+  }
+  
+  @media all and (min-width: 640px){
+    #MixItUp1 .mix,
+    #MixItUp1 .gap{
+      width: 23.5%;
+    }
+  }
+  
+  
