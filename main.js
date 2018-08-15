@@ -278,4 +278,6 @@ const players = [
   
 function showTable(){
     $(".show").css("display", "block");
+    var y = $(window).scrollTop();  //your current y position on the page
+    $(window).scrollTop(y+80);
   }

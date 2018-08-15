@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 100%;
 }
 .hero > img {
   width: 100%;
@@ -42,11 +43,29 @@ div.buttons {
   padding-bottom: 5%;
 }
 .show {
-  display: none;
+    display: none;
+    background-image: url("field.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
 }
-#table0{
-    overflow-x: auto;
+#table0 {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0 auto;
+  align-self: center;
+  width: 85%;
 }
+#table0 tr:nth-child(odd){
+    background-color: #4C8BF5;
+    color: #fff;
+  }
+  #table0 tr:nth-child(even){
+    background-color: grey;
+    color: #fff;
+  }
 
 td {
   font-family: sans-serif;
