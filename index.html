@@ -25,7 +25,7 @@
     </div>
 
     <div class="playerTable">
-        <button onclick="showTable()" class="btn blue">Players</button>
+        <button onclick="showTable()" class="btn blue">Player Info Table</button>
     </div>
 
     <div class="show">
@@ -33,155 +33,163 @@
 
         </table>
     </div>
+
+    <div class="squadMix">
+        <button onclick="showMix()" class="btn blue">Squad</button>
+    </div>
+
+    <div class="show_mix">
     <div class="controls">
         <label>Filter:</label>
 
         <button class="filter-1 active" data-filter="all">All</button>
-        <button class="filter-1" data-filter=".Fire">GK</button>
-        <button class="filter-1" data-filter=".Water">Defender</button>
-        <button class="filter-1" data-filter=".Plant">Midfielder</button>
-        <button class="filter-1" data-filter=".Electric">Forward</button>
+        <button class="filter-1" data-filter=".goalkeeper">GK</button>
+        <button class="filter-1" data-filter=".defender">Defender</button>
+        <button class="filter-1" data-filter=".midfielder">Midfielder</button>
+        <button class="filter-1" data-filter=".forward">Forward</button>
 
         <label>Sort:</label>
 
         <button class="sort-1" data-sort="myorder:asc">Asc</button>
         <button class="sort-1" data-sort="myorder:desc">Desc</button>
+        <!-- <img src="img/mnufc_logo.png"> -->
     </div>
 
     <div class="container" id="MixItUp1">
 
-        <div class="mix Fire" data-myorder="1" data-bound="" style="display: inline-block;">
+        <div class="mix goalkeeper" data-myorder="1" data-bound="" style="display: inline-block;">
             <img src="img/gk1.jpg" alt="">
         </div>
 
-        <div class="mix Fire" data-myorder="2" data-bound="" style="display: inline-block;">
+        <div class="mix goalkeeper" data-myorder="2" data-bound="" style="display: inline-block;">
             <img src="img/gk2.jpg" alt="">
         </div>
 
-        <div class="mix Fire" data-myorder="3" data-bound="" style="display: inline-block;">
+        <div class="mix goalkeeper" data-myorder="3" data-bound="" style="display: inline-block;">
             <img src="img/gk3.jpg" alt="">
         </div>
 
-        <div class="mix Fire" data-myorder="4" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="4" data-bound="" style="display: inline-block;">
             <img src="img/df1.jpg" alt="">
         </div>
 
-        <div class="mix Water" data-myorder="5" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="5" data-bound="" style="display: inline-block;">
             <img src="img/df2.jpg" alt="">
         </div>
 
-        <div class="mix Water" data-myorder="6" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="6" data-bound="" style="display: inline-block;">
             <img src="img/df3.jpg" alt="">
         </div>
 
-        <div class="mix Water" data-myorder="7" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="7" data-bound="" style="display: inline-block;">
             <img src="img/df4.jpg" alt="">
         </div>
 
-        <div class="mix Water" data-myorder="8" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="8" data-bound="" style="display: inline-block;">
             <img src="img/df5.jpg" alt="">
         </div>
 
-        <div class="mix Plant" data-myorder="9" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="9" data-bound="" style="display: inline-block;">
             <img src="img/df6.jpg" alt="">
         </div>
 
-        <div class="mix Plant" data-myorder="10" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="10" data-bound="" style="display: inline-block;">
             <img src="img/df7.jpg" alt="">
         </div>
 
-        <div class="mix Plant" data-myorder="11" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="11" data-bound="" style="display: inline-block;">
             <img src="img/df8.jpg" alt="">
         </div>
 
-        <div class="mix Plant" data-myorder="12" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="12" data-bound="" style="display: inline-block;">
             <img src="img/df9.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="13" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="13" data-bound="" style="display: inline-block;">
             <img src="img/df10.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="14" data-bound="" style="display: inline-block;">
+        <div class="mix defender" data-myorder="14" data-bound="" style="display: inline-block;">
             <img src="img/df11.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="15" data-bound="" style="display: inline-block;">
             <img src="img/mf1.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="16" data-bound="" style="display: inline-block;">
             <img src="img/mf2.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="17" data-bound="" style="display: inline-block;">
             <img src="img/mf3.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="18" data-bound="" style="display: inline-block;">
             <img src="img/mf4.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="19" data-bound="" style="display: inline-block;">
             <img src="img/mf5.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="20" data-bound="" style="display: inline-block;">
             <img src="img/mf6.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="21" data-bound="" style="display: inline-block;">
             <img src="img/mf7.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="22" data-bound="" style="display: inline-block;">
             <img src="img/mf8.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="23" data-bound="" style="display: inline-block;">
             <img src="img/mf9.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="24" data-bound="" style="display: inline-block;">
             <img src="img/mf10.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="25" data-bound="" style="display: inline-block;">
             <img src="img/mf11.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="26" data-bound="" style="display: inline-block;">
             <img src="img/mf12.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="27" data-bound="" style="display: inline-block;">
             <img src="img/mf13.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="28" data-bound="" style="display: inline-block;">
             <img src="img/mf13.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix midfielder" data-myorder="29" data-bound="" style="display: inline-block;">
             <img src="img/mf15.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix forward" data-myorder="30" data-bound="" style="display: inline-block;">
             <img src="img/fw1.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix forward" data-myorder="31" data-bound="" style="display: inline-block;">
             <img src="img/fw2.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="16" data-bound="" style="display: inline-block;">
+        <div class="mix forward" data-myorder="32" data-bound="" style="display: inline-block;">
             <img src="img/fw3.jpg" alt="">
         </div>
 
-        <div class="mix Electric" data-myorder="15" data-bound="" style="display: inline-block;">
+        <div class="mix forward" data-myorder="33" data-bound="" style="display: inline-block;">
             <img src="img/fw4.jpg" alt="">
         </div>
 
+    </div>
     </div>
     </div>
     <script src="static/js/bootstrap.min.js"></script>

@@ -275,10 +275,18 @@ const players = [
     }
   });
 
+  //function to show table
 function showTable(){
     $(".show").css("display", "block");
     var y = $(window).scrollTop();  //your current y position on the page
     $(window).scrollTop(y+80);
+  }
+
+  //function to show squad mix
+  function showMix(){
+    $(".show_mix").css("display", "block");
+    var y = $(window).scrollTop();  //your current y position on the page
+    $(window).scrollTop(y+280);
   }
 
   //mix it up js

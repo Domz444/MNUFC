@@ -74,6 +74,17 @@ td {
 }
 
 /*Mix it up css*/
+
+
+.squadMix{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* .show_mix{
+  display: none;
+} */
 /*
 section {
 	padding: 60px 0;
@@ -120,9 +131,9 @@ section {
     text-transform: uppercase;
     text-shadow: 0 5px black, 0 3px #343434;
   }
-  section.module.parallax-1 {
+  /* section.module.parallax-1 {
     background: url("C:/Users/Domz44/Desktop/Other Stuff/Unomena/FrontEnd/Andro/Domz/static/img/footy/poks.png") no-repeat center;
-  }
+  } */
   {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -135,7 +146,7 @@ section {
   
   .controls{
     padding: 2%;
-    background: #333;
+    background: #4C8BF5;
     color: #eee;
   }
   
@@ -205,18 +216,18 @@ section {
     display: none;
   }
   
-  #MixItUp1 .mix.Fire{
-    border-top: 2px solid red;
+  #MixItUp1 .mix.goalkeeper{
+    border-top: 2px solid #4C8BF5;
   }
   
-  #MixItUp1 .mix.Water{
-    border-top: 2px solid blue;
+  #MixItUp1 .mix.defender{
+    border-top: 2px solid #4C8BF5;
   }
-  #MixItUp1 .mix.Plant{
-    border-top: 2px solid green;
+  #MixItUp1 .mix.midfielder{
+    border-top: 2px solid #4C8BF5;
   }
-  #MixItUp1 .mix.Electric{
-    border-top: 2px solid yellow;
+  #MixItUp1 .mix.forward{
+    border-top: 2px solid #4C8BF5;
   }
   
   #MixItUp1 .mix:after{
@@ -240,7 +251,7 @@ section {
   .mix img {
    position: absolute;
    top: 50%;
-   left: 50%;
+   left: 53%;
    transform: translate(-50%, -50%);
    height: 100%;
    width: 75%;  
